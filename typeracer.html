@@ -1,0 +1,109 @@
+<html>
+  <head>
+  <title>TypeRacer</title>
+    <link rel="stylesheet" type="text/css" href="typeracer.css" />
+    <script type="text/javascript" src="js/jquery-1.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="js/typeracer.js"></script>
+  </head>
+  <body>
+    <div id="startscreen">
+      <div class="frame">
+        <h2>Typeracer</h2>
+        <p>
+          <span href="#" id="create" class="close">Create a new race</span>
+          <div id="races">
+          </div>
+        </p>
+      </div>
+    </div>
+
+    <div id="wrapper">
+      <div id="toolbar">
+        <h1>TypeRacer</h1>
+        <h2>type as fast as you can...</h2>
+        <div id="timer">0:05</div>
+        <div id="start">Waiting for competitors</div>
+      </div>
+      <div id="content">
+        <div id="cars">
+        </div>
+        <div id="text">
+ Humans need to practice what they are learning a good deal before they master it. 
+ Furthermore, they tend to lose a good deal of their learning when they cease to
+ practice the skills associated with this learning in their daily lives. 
+        </div>
+<!--        <div id="text">
+          into the wind.
+        </div>-->
+        <form method="POST" action="#">
+          <input type="text" name="typed" value="" disabled="disabled" autocomplete="off" />
+        </form>
+        <div class="keyboard_toggle">
+          <a id="hide" href="#">hide the keyboard</a>
+          <a id="show" href="#">show the keyboard</a>
+        </div>
+        <div id="keyboard">
+          <div id="upper-row">
+            <div class="key key-empty key-tab"><p></p></div>
+            <div class="key key-q"><p>Q</p></div>
+            <div class="key key-w"><p>W</p></div>
+            <div class="key key-e"><p>E</p></div>
+            <div class="key key-r"><p>R</p></div>
+            <div class="key key-t"><p>T</p></div>
+            <div class="key key-y"><p>Y</p></div>
+            <div class="key key-u"><p>U</p></div>
+            <div class="key key-i"><p>I</p></div>
+            <div class="key key-o"><p>O</p></div>
+            <div class="key key-p"><p>P</p></div>
+            <div class="key key-empty"><p></p></div>
+            <div class="key key-empty"><p></p></div>
+            <div class="key key-empty key-tab"><p></p></div>
+          </div>
+          <div id="home-row">
+            <div class="key key-empty key-caps"><p></p></div>
+            <div class="key key-a"><p>A</p></div>
+            <div class="key key-s"><p>S</p></div>
+            <div class="key key-d"><p>D</p></div>
+            <div class="key key-f"><p>F</p></div>
+            <div class="key key-g"><p>G</p></div>
+            <div class="key key-h"><p>H</p></div>
+            <div class="key key-j"><p>J</p></div>
+            <div class="key key-k"><p>K</p></div>
+            <div class="key key-l"><p>L</p></div>
+            <div class="key key-empty"><p></p></div>
+            <div class="key key-empty"><p></p></div>
+            <div class="key key-empty key-enter"><p></p></div>
+          </div>
+          <div id="lower-row">
+            <div class="key key-empty key-lshift"><p></p></div>
+            <div class="key key-z"><p>Z</p></div>
+            <div class="key key-x"><p>X</p></div>
+            <div class="key key-c"><p>C</p></div>
+            <div class="key key-v"><p>V</p></div>
+            <div class="key key-b"><p>B</p></div>
+            <div class="key key-n"><p>N</p></div>
+            <div class="key key-m"><p>M</p></div>
+            <div class="key key-empty"><p></p></div>
+            <div class="key key-empty"><p></p></div>
+            <div class="key key-empty"><p></p></div>
+            <div class="key key-empty key-rshift"><p></p></div>
+            <div class="key key-empty"><p></p></div>
+          </div>
+          <div id="space-row">
+            <div class="key key-empty" style="width: 75px"><p></p></div>
+            <div class="key key-empty"><p></p></div>
+            <div class="key key-empty"><p></p></div>
+            <div class="key key-empty" style="width: 70px"><p></p></div>
+            <div class="key key-space"><p></p></div>
+            <div class="key key-empty"><p></p></div>
+            <div class="key key-empty" style="width: 65px"><p></p></div>
+            <div class="key key-empty"><p></p></div>
+            <div class="key key-empty"><p></p></div>
+            <div class="key key-empty"><p></p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
